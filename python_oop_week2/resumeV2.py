@@ -5,6 +5,7 @@ yesr = input("โปรดกรอกชั้นปี\n")
 nickname = input("โปรดกรอกชื่อเล่น\n")
 height = float(input("โปรดกรอกส่วนสูง\n"))
 weight = float(input("โปรดกรอกน้ำหนัก\n"))
+
 print(f"ชื่อ: {name} อายุ: {age} ปี")
 print(f"รหัสประจำตัวนักศึกษา: {id} ระดับชั้น: {yesr}")
 print(f"ชื่อเล่น: {nickname}")
