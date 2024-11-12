@@ -7,4 +7,4 @@ for i in range(1,num+1):
     resume["stdid"] = str(input("กรุณากรอกรหัสประจำตัวนักศึกษา : "))
     resume["hobby"] = str(input("กรุณากรอกงานอดิเรก : "))
     resume["color"] = str(input("กรุณากรอกสีที่ชอบ : "))
-    print(resume)
+    print(f"ข้อมูลคนที่ {str(i)}\n{resume}")
