@@ -3,5 +3,5 @@ b = []
 for i in range(a):
     c = int(input("ใสตัวเลข: "))
     b.append(c)
-d = (sum(b)) // len(b)
+d = sum(b) // len(b)
 print(d)
