@@ -3,11 +3,10 @@ def no3(a,b):
         if i % 3 != 0 :
             print(i)
 
-def num():
+def num(a):
     sum = 0
     gum = 0
     while True:
-        a = int(input("ใส่ค่าตัวเลข "))
         if a > 0:
             sum += a
             print(sum)
@@ -16,5 +15,5 @@ def num():
             print(gum)
         else:
             break
-    print(f"ผลรวมเลขบวก {sum}\nผลรวมเลขลบ {gum}")
+    return f"ผลรวมเลขบวก {sum}\nผลรวมเลขลบ {gum}"
 
