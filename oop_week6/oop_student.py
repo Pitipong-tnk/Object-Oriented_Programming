@@ -7,6 +7,7 @@ class Student:
         self.nickname = ชื่อเล่น
         self.score = random.randint(1,10)
         self.fixscore = random.randint(1,10)
+        
     def checkScore(self):
         if self.score >= 5:
             print(f"{self.fristname} {self.lastname} \nชื่อเล่น {self.nickname} \nสอบได้ {self.score} คะแนน สอบผ่าน\n")
