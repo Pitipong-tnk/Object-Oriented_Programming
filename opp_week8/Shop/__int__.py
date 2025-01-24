@@ -16,8 +16,9 @@ class Managerdb:
         return show
     
     def deletedb(self, table, id_name, id):
-        sql = f"DELETE FROM {table} WHERE {id_name} = {id}"
-        self.mycursor.execute(sql)
+        sql = f"DELETE FROM {table} WHERE {id_name} = %s"
+        val_sql = (id,)
+        self.mycursor.execute(sql, val_sql)
         self.database.mydb.commit()
         if self.mycursor.rowcount > 0:
             return True
